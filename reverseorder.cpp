@@ -44,7 +44,7 @@ void reverse_oreder(std::string date1, std::string date2)
         }
 
         if(add){
-            endPrint = cDate + ":" + westEl + "\n" + endPrint;
+            endPrint = cDate + " : " + westEl + "\n" + endPrint;
 
             if (cDate == date2){
                 add = false;
