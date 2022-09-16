@@ -24,10 +24,10 @@ void reverse_oreder(std::string date1, std::string date2)
     std::string cDate;
     double eastSt;
     double eastEl;
-    double westSt;
+    std::string westSt;
     std::string westEl;
 
-    bool add = true;
+    bool add = false;
     while (fin >> cDate >> eastSt >> eastEl >> westSt >> westEl)
     {
         // this loop reads the file line-by-line
