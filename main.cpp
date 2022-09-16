@@ -1,3 +1,10 @@
+/*
+Author: Ishraq Mahid
+Course : CSCI-135
+Instructor: Professor Zamansky
+Assignment: Lab 2C
+*/
+
 // add your code as appropriate 
 #include <iostream>
 #include "reservoir.h"
