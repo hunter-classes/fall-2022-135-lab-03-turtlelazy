@@ -10,7 +10,6 @@ int main()
   std::cout << "Maximum East Basin Storage: " << get_max_east() << std::endl;
 
   std::cout << "09/13/2018 East Storage: " << get_east_storage("09/13/2018") << std::endl;
-  std::cout << get_west_storage("09/13/2018") << std::endl;
 
   std::cout << "Compare Basin 09/13/2018: " << compare_basins("09/13/2018") << std::endl;
   std::cout << "Compare Basin 09/14/2018: " << compare_basins("09/14/2018") << std::endl;
